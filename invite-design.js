@@ -74,8 +74,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
   })
   
-   const partner2 = document.getElementById("partner2");
-  partner2.addEventListener("keypress", (e) => {
+   const dateText = document.getElementById("partner2");
+  dateText.addEventListener("keypress", (e) => {
     console.log(e.which);
     console.log(String.fromCharCode(e.which));
     keychar = String.fromCharCode(e.which);
