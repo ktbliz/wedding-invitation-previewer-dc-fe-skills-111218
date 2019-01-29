@@ -1,0 +1,98 @@
+html, body {
+  font-size: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+header {
+  float: left;
+  background-color: #F2E6EA; 
+  width: 100%;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#form {
+  float: left;
+  background-color: #FFF6F6;
+  width: 50%;
+  height: 80%;
+  text-align: left;
+  
+}
+
+#nav-text {
+  margin: 0 auto;
+}
+
+form-text {
+  margin: 0 auto;
+}
+
+nav, form {
+  padding: 2em;
+}
+
+button {
+  margin: 1em;  
+  width: 8em;
+}
+
+#invite-border {
+  width: 50%;
+  height: 80%;
+  float: right;
+  position: relative;
+}
+
+#invite {
+  background-color: #E8E3E8;
+  width: 70%;
+  height: 90%;
+  position: absolute;
+  left: 15%;
+  top: 5%;
+  float: left;
+  text-align: center;
+  color: #4B4869;
+}
+
+#invite-text {
+  padding: 10%;
+}
+
+footer {
+  background-color: #F2E6EA;
+  clear: both;
+  width: 100%;
+  height: 10%;
+}
+
+h1, button, form {
+  color: #4B4869;
+}
+
+p {
+  font-size: 1.2em;
+ 
+}
+
+h2 {
+  font-size: 3em;
+  
+}
+
+h3 {
+  font-size: 2em;
+ 
+}
+
+h4 {
+  font-size: 1.5em;
+ 
+}
