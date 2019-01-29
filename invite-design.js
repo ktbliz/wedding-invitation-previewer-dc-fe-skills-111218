@@ -86,10 +86,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
   dateText.addEventListener("keydown", (e) => {
     console.log(e.which);
     if (e.which == 8) {
-      let partner2Invite = document.getElementById("partner2-invite");
-      let partner2InviteStr = partner2Invite.innerHTML;
-      let partner2InviteStrNew = partner2InviteStr.slice (0, -1); 
-      partner2Invite.innerHTML = partner2InviteStrNew;
+      let dateInvite = document.getElementById("date-invite");
+      let dateInviteStr = dateInvite.innerHTML;
+      let dateInviteStrNew = dateInviteStr.slice (0, -1); 
+      dateInvite.innerHTML = dateInviteStrNew;
     }
   })
   
