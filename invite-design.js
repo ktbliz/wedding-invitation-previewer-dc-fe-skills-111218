@@ -74,4 +74,23 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
   })
   
+   const partner2 = document.getElementById("partner2");
+  partner2.addEventListener("keypress", (e) => {
+    console.log(e.which);
+    console.log(String.fromCharCode(e.which));
+    keychar = String.fromCharCode(e.which);
+    let partner2Invite = document.getElementById("partner2-invite");
+    partner2Invite.innerHTML += keychar;
+  })
+  
+  partner2.addEventListener("keydown", (e) => {
+    console.log(e.which);
+    if (e.which == 8) {
+      let partner2Invite = document.getElementById("partner2-invite");
+      let partner2InviteStr = partner2Invite.innerHTML;
+      let partner2InviteStrNew = partner2InviteStr.slice (0, -1); 
+      partner2Invite.innerHTML = partner2InviteStrNew;
+    }
+  })
+  
 })
