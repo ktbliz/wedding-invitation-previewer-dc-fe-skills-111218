@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const invite = document.getElementById("invite")
     invite.style.backgroundColor = "#FFB14A";
     invite.style.border = "thick solid #760304";
-    invite.style.fontFamily = "Molle, cursive";
+    invite.style.fontFamily = "Sofia, cursive";
     document.getElementById("invite-text").style.color = "#760304";
   })
   
