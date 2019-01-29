@@ -102,13 +102,13 @@ document.addEventListener("DOMContentLoaded", (e) => {
     locationInvite.innerHTML += keychar;
   })
   
-  dateText.addEventListener("keydown", (e) => {
+  locationText.addEventListener("keydown", (e) => {
     console.log(e.which);
     if (e.which == 8) {
-      let dateInvite = document.getElementById("date-invite");
-      let dateInviteStr = dateInvite.innerHTML;
-      let dateInviteStrNew = dateInviteStr.slice (0, -1); 
-      dateInvite.innerHTML = dateInviteStrNew;
+      let locationInvite = document.getElementById("location-invite");
+      let locationInviteStr = locationInvite.innerHTML;
+      let locationInviteStrNew = locationInviteStr.slice (0, -1); 
+      locationInvite.innerHTML = locationInviteStrNew;
     }
   })
   
