@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const invite = document.getElementById("invite")
     invite.style.backgroundColor = "#BDE1F0";
     invite.style.border = "thick solid #002140";
-    invite.style.fontFamily = "Parisienne, cursive";
+    invite.style.fontFamily = "Pinyon Script, cursive";
     document.getElementById("invite-text").style.color = "#002140";
   })
   
