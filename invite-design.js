@@ -93,4 +93,23 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
   })
   
+   const locationText = document.getElementById("location");
+  locationText.addEventListener("keypress", (e) => {
+    console.log(e.which);
+    console.log(String.fromCharCode(e.which));
+    keychar = String.fromCharCode(e.which);
+    let locationInvite = document.getElementById("location-invite");
+    locationInvite.innerHTML += keychar;
+  })
+  
+  dateText.addEventListener("keydown", (e) => {
+    console.log(e.which);
+    if (e.which == 8) {
+      let dateInvite = document.getElementById("date-invite");
+      let dateInviteStr = dateInvite.innerHTML;
+      let dateInviteStrNew = dateInviteStr.slice (0, -1); 
+      dateInvite.innerHTML = dateInviteStrNew;
+    }
+  })
+  
 })
