@@ -79,11 +79,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
     console.log(e.which);
     console.log(String.fromCharCode(e.which));
     keychar = String.fromCharCode(e.which);
-    let partner2Invite = document.getElementById("partner2-invite");
-    partner2Invite.innerHTML += keychar;
+    let dateInvite = document.getElementById("date-invite");
+    dateInvite.innerHTML += keychar;
   })
   
-  partner2.addEventListener("keydown", (e) => {
+  dateText.addEventListener("keydown", (e) => {
     console.log(e.which);
     if (e.which == 8) {
       let partner2Invite = document.getElementById("partner2-invite");
